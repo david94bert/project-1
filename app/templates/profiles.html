@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div>
+    <img src="url_for('static', filename=' ')"> {{ photo }} </img>
+</div>
+
+<div>
+    <h2> {{ firstname }} {{ lastname }} </h2>
+    
+    <h3> {{ gender }} </h3>
+    
+    <h3> {{ location }} </h3>
+</div>
+
+<div>
+    <button class="button"> View Profile </button>
+</div>
+
+{% endblock %}
